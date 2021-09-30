@@ -1,0 +1,540 @@
+/*Font start*/
+@font-face{
+	font-family: Poppins-Bold;
+	src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face{
+	font-family: Poppins-Medium;
+	src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face{
+	font-family: Poppins-SemiBold;
+	src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Medium;
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+/*Font End*/
+
+body{
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #888888;
+}
+
+/*Header Start*/
+
+header{
+	padding: 10px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1111;
+	width: 100%;
+	display: block;
+	background-color: #f7f7f7;
+
+}
+header .page{
+	font-family: Roboto-Medium;
+	font-size: 16px;
+	font-weight: 500;
+	color: #323541 !important;
+	transition: 0.3s;
+}
+header .page:hover{
+	color: #ff7214 !important;
+}
+
+header ul li{
+	margin-right: 20px;
+}
+header ul li:last-child{
+	margin-right: 0px;
+}
+
+/*Header End*/
+
+/*Banner start*/
+.banner{
+	padding-bottom: 100px;
+	/*margin-top: 80px;*/
+	padding-top: 80px;
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner-left-col-wrapper h2{
+	font-family: Roboto-Medium;
+	font-size: 18px;
+	font-weight: 500;
+	color: #ff7214 !important;
+}
+.banner-left-col-wrapper h1{
+	font-family: Poppins-Bold;
+	font-size: 60px;
+	font-weight: 700;
+	color: #112e41 !important;
+}
+.call-to-action-btn{
+	font-family: Poppins-SemiBold;
+	font-size: 16px;
+	font-weight: 500;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	border: none;
+	border-radius: 50px;
+	background-color: #ff7214;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.call-to-action-btn:hover{
+	color: #ff7214;
+	border: 1px solid #ff7214;
+	border: 1px solid #ff7214;
+	background-color: transparent;
+}
+
+/*Banner End*/
+
+/*About Start*/
+
+.about{
+	padding-top: 100px;
+}
+
+.png-bg{
+	width: 600px;
+	top: 20px;
+	left: 60px;
+	z-index: -1;
+}
+.liq-first-img{
+	margin-top: 60px;
+}
+
+.about-left-head{
+	margin-top: 30px;
+	font-family: Poppins-Bold;
+	font-size: 30px;
+	font-weight: 700;
+	color: #233646 !important;
+}
+
+.about-right-head{
+	font-size: 40px !important;
+}
+
+.about-right-subtitle{
+	font-family: Poppins-Medium;
+	font-size: 20px;
+	font-weight: 500;
+	color: #112e41 !important;
+}
+
+/*About End*/
+
+/*Feature Start*/
+.feature{
+	padding-top: 100px;
+}
+
+.short-title{
+	font-family: Roboto-Medium;
+	font-size: 16px;
+	font-weight: 500;
+	color: #ff7214 !important;
+}
+
+.title{
+	font-family: Poppins-Bold;
+	font-size: 40px;
+	font-weight: 700;
+	color: #112e41 !important;
+}
+
+.feature-wrapper i{
+	font-size: 25px;
+	padding: 15px;
+	border-radius: 50%;
+}
+.orange-icon{
+	color: #ff7214;
+	background-color: #ffeee2;
+}
+.purple-icon{
+	color: #9165ff;
+	background-color: #ebe3ff;
+}
+.paste-icon{
+	color: #178efd;
+	background-color: #ffeee2;
+}
+.pink-icon{
+	color: #ff1481;
+	background-color: #ffedf5;
+}
+
+.feature-wrapper h2{
+	margin-top: 30px;
+	font-family: Poppins-SemiBold;
+	font-size: 22px;
+	font-weight: 500;
+	color: #233646 !important;
+}
+
+.feature-wrapper p{
+	margin: 15px 30px;
+}
+
+.feature-wrapper{
+	padding: 50px 0 20px 0px;
+	border: 1px solid #ebeef0;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px -2px #dad7d7;
+}
+
+.feature-wrapper:hover{
+	box-shadow: 0px 0px 15px 5px #dad7d7;
+	transform: scale(1.05);
+}
+/*Feature End*/
+
+/*Recent Creative Work start*/
+.recent-work{
+	padding-top: 100px;
+}
+
+.f-size-thirty{
+	font-size: 30px !important;
+}
+
+.work-desc-wrapper a{
+	font-family: Poppins-SemiBold;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #112e41 !important;
+	transition: 0.3s;
+}
+
+.work-desc-wrapper a:hover{
+	color: #ff7214 !important;
+}
+/*Recent Creatice Work end*/
+
+/*Counter section start*/
+
+.counter-js{
+	margin-top: 50px;
+	padding: 80px 0;
+	background-color: #162b45;
+}
+
+.counter{
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 60px;
+	color: #fff !important;
+}
+
+.counter-js .title-counter{
+	text-transform: uppercase;
+	font-family: Poppins-Bold;
+	font-weight: 700;
+	font-size: 22px;
+	color: #fff;
+}
+
+/*Counter section end*/
+
+/*Testimonial start*/
+
+.testimonial{
+	padding-top: 100px;
+}
+
+.client-name h2{
+	font-family: Poppins-SemiBold;
+	font-weight: 500;
+	font-size: 22px;
+	color: #112e41;
+}
+
+.video-img a{
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	transform: translate(-50%,-50%);
+	padding: ;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	/*line-height: 40px;*/
+	line-height: 53px;
+	background-color: #ff7214;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.video-img a:hover{
+	color: black !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	top: 40px;
+    align-items: self-start;
+}
+.carousel-control-next-icon ,.carousel-control-prev-icon{
+    background-image: none;
+    font-size: 30px;
+    color: black;
+}
+.carousel-control-prev {
+    /*left: 145px;*/
+    left: 25%;
+}
+.carousel-control-next {
+    /*right: 330px;*/
+    right: 50%;
+}
+/*Testimonial End*/
+
+/*Team start*/
+.team{
+	padding-top: 100px;
+}
+
+.social-link i{
+	font-size: 10px;
+}
+.social-link a{
+	text-decoration: none;
+	font-style: 16px !important;
+	color: #888888 !important;
+	transition: 0.3s;
+}
+.social-link a:hover{
+	color: #ff7214 !important;
+}
+
+.team-wrapper{
+	border: 7px solid #f6f7fb;
+}
+
+.team-img img{
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.team-img img:hover{
+	transform: scale(1.1);
+}
+
+.team-wrapper h2{
+	margin-top: 20px;
+	font-family: Poppins-SemiBold;
+	font-weight: 500;
+	font-size: 22px;
+	color: #112e41;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.team-wrapper h2:hover{
+	color: #ff7214;
+}
+/*Team End*/
+
+/*Blog start*/
+.blog{
+	padding-top: 100px;
+}
+
+.blog-wrapper h2{
+	font-family: Poppins-SemiBold;
+	font-weight: 500;
+	font-size: 22px;
+	color: #112e41;
+	transition: 0.3s;
+	cursor: pointer
+}
+
+.blog-wrapper h2:hover{
+	color: #ff7214;
+}
+
+.blog-wrapper i{
+	color: #ff7214;
+}
+
+.blog-wrapper{
+	transition: 0.3s;
+	cursor: wait;
+}
+
+.blog-wrapper:hover{
+	transform: scale(0.9);
+}
+
+.blog-wrapper img{
+	transition: 0.3s;
+}
+
+.blog-wrapper:hover img{
+	opacity: 0.5;
+}
+
+.blog-title{
+	margin-top: -20px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	border: 4px solid #f6f7fb;
+	/*border-top: #fff;*/
+}
+
+.blog-wrapper span{
+	transition: 0.3s;
+	cursor: pointer;
+}
+.blog-wrapper span:hover{
+	color: #ff7214;
+}
+
+/*Blog End*/
+
+/*Contact Start*/
+.contact{
+	padding-top: 100px;
+}
+
+.contact-form input{
+	background-color: transparent;
+	color: #999999 !important;
+}
+
+.contact-form textarea{
+	background-color: transparent;
+	color: #999999 !important;
+}
+
+.contact-form .input-field:focus{
+	outline: none;
+	box-shadow: none;
+	border-color: #ff7214;
+}
+
+.contact-form .input-field{
+	border-radius: 0;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+.contact-form .input-field::placeholder{
+	color: #999999;
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 14px;
+}
+textarea {
+  resize: none;
+}
+
+/*Contact End*/
+
+/*Partner start*/
+.partner{
+	padding: 100px 0;
+}
+
+.partner img{
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.partner img:hover{
+	transform: scale(1.1);
+}
+
+/*Partner End*/
+
+/*Footer Start*/
+
+.footer-top{
+	padding: 80px 0;
+	background-color: #162b45;
+}
+
+.footer-top p{
+	line-height: 30px;
+	font-size: 16px;
+	margin-top: -4px;
+}
+
+.footer-top h2{
+	font-family: Poppins-SemiBold;
+	font-weight: 500;
+	font-style: 22px;
+	color: #ffffff !important;
+}
+
+.footer-top li a{
+	text-decoration: none;
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-style: 16px;
+	color: #999999;
+	transition: 0.3s;
+}
+.footer-top li a:hover{
+	color: #ff7214;
+}
+.footer-insta-gallery img{
+	transition: 0.3s;
+}
+
+.footer-insta-gallery img:hover{
+	transform: scale(1.1);
+}
+
+.footer-address a{
+	text-decoration: none;
+	color: #999999 !important;
+}
+
+
+.footer-bottom{
+	background-color: #10233a;
+	padding: 25px 0;
+}
+
+.footer-bottom a{
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-style: 16px;
+	text-decoration: none;
+	color: #999999;
+	transition: 0.3s;
+}
+
+.footer-bottom a:hover{
+	color: #ff7214;
+}
+
+/*Footer End*/
